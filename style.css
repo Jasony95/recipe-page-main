@@ -1,11 +1,56 @@
 body {
     font-family: "Young Serif", serif;
+    background-color: hsl(30, 54%, 90%);
+    line-height: 2rem;
+    font-size: 16px;
+    /* max-width: max-content; */
+    padding: 10%;
 }
 
 h1 {
     font-size: 40px;
 }
 
-p {
-    font-size: 16px;
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 30px;
+    font-family: "Outfit", sans-serif;
+}
+
+h2, h3, .values {
+    color: hsl(332, 51%, 32%);
+}
+
+.background {
+    background-color: white;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction:column;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    padding: 4%;
+}
+
+.container.preparation {
+    background-color: hsl(330, 100%, 98%);
+    /* width: 100%; */
+}
+
+.values {
+    font-weight: bolder;
+    font-family: "Outfit", sans-serif;
+}
+
+img {
+    border-radius: 80px;
+    /* max-width: fit-content; */
+    padding: 3rem;
 }
